@@ -6,7 +6,7 @@ import requests
 session = HTMLSession()
 
 # Step 2: Fetch the page
-url = 'spot.fr'
+url = 'spotcmr.fr'
 response = session.get(url)
 
 # Step 3: Render JavaScript (if necessary)
